@@ -1,0 +1,88 @@
+########################################
+# GLOBAL
+########################################
+.DS_Store
+Thumbs.db
+*.log
+logs/
+
+########################################
+# ENV / SECRETS (Stripe, Razorpay, JWT)
+########################################
+.env
+.env.*
+*.env
+
+# Spring Boot secret configs
+application-secret.yml
+application-secret.properties
+
+########################################
+# BACKEND (Spring Boot / Java / Maven)
+########################################
+
+# Maven
+BharatPOS-backend/target/
+BharatPOS-backend/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle (if ever used)
+BharatPOS-backend/build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot logs
+BharatPOS-backend/logs/
+BharatPOS-backend/*.log
+
+########################################
+# INTELLIJ IDEA
+########################################
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+########################################
+# LOMBOK
+########################################
+lombok.config
+
+########################################
+# FRONTEND (React)
+########################################
+
+# Node modules
+BharatPOS-frontend/node_modules/
+BharatPOS-frontend/npm-debug.log*
+BharatPOS-frontend/yarn-debug.log*
+BharatPOS-frontend/yarn-error.log*
+
+# React build output
+BharatPOS-frontend/build/
+BharatPOS-frontend/dist/
+
+# Cache
+BharatPOS-frontend/.cache/
+
+########################################
+# VS CODE (if used)
+########################################
+.vscode/
+
+########################################
+# TEST / COVERAGE
+########################################
+coverage/
+*.lcov
+
+########################################
+# TEMP FILES
+########################################
+*.tmp
+*.swp
+*~
